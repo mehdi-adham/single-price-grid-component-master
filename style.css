@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 :root{
     --Cyan: hsl(179, 62%, 43%);
     --BrightYellow: hsl(71, 73%, 54%);
     --LightGray: hsl(204, 43%, 93%);
     --GrayishBlue: hsl(218, 22%, 67%);
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -13,5 +15,85 @@
 
 body{
     font-size: 16px;
+    font-family: Karla;
+    letter-spacing: 0.02em;
+    display: flex;
+    justify-content: center;
+    background-color: var(--LightGray);
 }
 
+.singl-price-grid{
+    margin-top: 10rem;
+    display: grid;
+    grid:'area-1 area-1';
+    grid-auto-columns: 1fr;
+    width: 100%;
+    max-width: 600px;
+    /*padding: 2.3rem;*/
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.item-1{
+    grid-area: area-1;
+}
+
+.singl-price-grid h1{
+    font-size: 1.35em;
+    font-weight: 700;
+    color: var(--Cyan);
+    margin-bottom: 24px;
+}
+
+.singl-price-grid h2{
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+.item-1 h2{
+    color: var(--BrightYellow);
+}
+
+.item-1 p{
+    margin: 12px 0;
+    letter-spacing: 0.027em;
+    font-size: 14px;
+    line-height: 1.5rem;
+    opacity: 0.5;
+}
+
+.item-1,.item-2 ,.item-3{
+    padding: 2.3rem;
+    padding-bottom: 1.7rem;
+}
+
+.item-2{
+    background-color: var(--Cyan);
+}
+
+.item-2 h2{
+    color: #fff;
+}
+.item-2{
+    background-color: #2bb3b1;
+}
+.item-3 ul{
+    margin: 20px 0;
+}
+.item-3 ul li{
+    letter-spacing: 0.038em;
+    font-size: 12px;
+    /*line-height: 1.3rem;*/
+    font-weight: 100;
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+.item-3{
+    background-color: #4abebd;
+    padding-right: 5rem;
+}
+.item-3, .item-2{
+   color:#fff;
+}
