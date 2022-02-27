@@ -130,6 +130,9 @@ body{
     font-family: 'Karla', sans-serif;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
 }
+.singl-price-btn:hover{
+    cursor: pointer;
+}
 
 @media screen and (max-width:480px) {
     .singl-price-grid{

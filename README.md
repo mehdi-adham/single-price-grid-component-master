@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://your-solution-url.com](https://your-solution-url.com)
-- Live Site URL: [https://your-live-site-url.com](https://your-live-site-url.com)
+- Live Site URL: [https://mehdi-adham.github.io/single-price-grid-component-master/](https://mehdi-adham.github.io/single-price-grid-component-master/)
 
 ## My process
 
